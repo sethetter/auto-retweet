@@ -1,8 +1,10 @@
 # auto-retweet
 
-A node thing to auto RT things posted by specified accounts on Twitter.
+A node thing to auto RT statuses posted by specified accounts on Twitter.
 
 ## Configuration
+
+Copy the `.env.example` file renamed to `.env` and fill in your own values.
 
 * `RT_USERNAME_LIST`, default: `''` (comma separated)
 * `YOUR_USERNAME`, default: `''`
@@ -20,5 +22,6 @@ Make sure all necessary ENV vars are set and run `npm start`.
 
 ## The fuuuuuture
 
-* Add env var to filter out posts containing certain keywords
-* Add tests?
+* Add env var to filter out posts containing certain keywords.
+* Refactor a bit, you're better than this.
+* Add tests? Seems like the right thing to do.
