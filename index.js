@@ -1,3 +1,6 @@
+// Load vars from .env file
+require('dotenv').load();
+
 var Twitter = require('twitter');
 
 var USER_ACCOUNT = process.env.YOUR_USERNAME;

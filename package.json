@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/sethetter/auto-retweet#readme",
   "dependencies": {
+    "dotenv": "^1.2.0",
     "twitter": "^1.2.5"
   }
 }
