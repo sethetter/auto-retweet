@@ -17,3 +17,8 @@ A node thing to auto RT things posted by specified accounts on Twitter.
 ## Run it!
 
 Make sure all necessary ENV vars are set and run `npm start`.
+
+## The fuuuuuture
+
+* Add env var to filter out posts containing certain keywords
+* Add tests?
