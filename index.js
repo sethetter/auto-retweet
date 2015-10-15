@@ -67,7 +67,7 @@ function retweetStatus(statusID) {
     id: statusID
   }, (err, retweetedStatus, response) => {
     if (err) throw err;
-    console.log(`-- Retweeting status ${status.id_str} from ${retweetStatus.screen_name}`);
+    console.log(`-- Retweeting status ${statusID} from ${retweetStatus.screen_name}`);
   });
 }
 
