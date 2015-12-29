@@ -55,6 +55,7 @@ function getStatusesForAccount(username) {
 
 // Check each status for already RT'd, and RT if not already
 function processStatuses(statuses) {
+  if (typeof(statuses) === 'undefined') return;
   statuses.forEach((status) => {
     console.log(`-- Processing status ${status.id_str}`);
     // Don't RT if we already have
