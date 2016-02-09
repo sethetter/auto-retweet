@@ -48,7 +48,7 @@ function getStatusesForAccount(username) {
     count: 10,
     since_id: MOST_RECENT_TWEET_ID
   }, (err, tweets, response) => {
-    if (err) console.log(err);
+    if (err) return console.log(err);
     processStatuses(tweets)
   });
 }
